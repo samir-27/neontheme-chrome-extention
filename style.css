@@ -46,7 +46,7 @@ h1 {
   width: 30vw;
   border-radius: 5px;
   border: 1px solid #444;
-  background: rgba(20, 20, 25, 0.8);
+  background: rgba(20, 20, 25);
   color: #dce1e8;
   outline: none;
 }
