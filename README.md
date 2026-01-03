@@ -26,6 +26,16 @@ Upgrade your browser’s new tab with a **minimalist, neon aesthetic**, custom *
 
 ## 💻 Installation (Chrome)
 
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/samir-27/neontheme-chrome-extention.git
+1. **Download or clone** the repository:
+```bash
+git clone https://github.com/samir-27/neontheme-chrome-extention.git
+```
+2. Open Chrome and go to:
+```bash
+chrome://extensions/
+```
+3. Enable Developer Mode by toggling the switch at the top-right.
+
+4. Click “Load unpacked” and select the project folder (NeonDevNTP).
+
+5. Open a new tab — your Neon Developer NTP is now live! 🎉
