@@ -1,13 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "Neon Theme",
-  "version": "1.0.0",
-  "description": "A neon, futuristic new tab page for developers.",
-  "chrome_url_overrides": {
-    "newtab": "newtab.html"
+  "name": "Neon NTP",
+  "version": "1.0",
+  "permissions": ["runtime"],
+  "host_permissions": [
+    "https://duckduckgo.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
   },
-  "permissions": [],
-  "icons": {
-    "128": "images/ntp_bg.webp"
+  "chrome_url_overrides": {
+    "newtab": "index.html"
   }
 }
