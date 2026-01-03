@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Neon Developer NTP",
+  "version": "1.0.0",
+  "description": "A neon, futuristic new tab page for developers.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [],
+  "icons": {
+    "128": "images/ntp_bg.png"
+  }
+}
